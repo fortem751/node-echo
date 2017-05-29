@@ -150,15 +150,13 @@
                     "value": "${MONGODB_DATABASE}"
                   },
                   {
-                    "name": "MONGODB_ADMIN_PASSWORD",
-                    "value": "${MONGODB_ADMIN_PASSWORD}"
+                    "name": "MONGODB_ADMIN_PASSWORD",                    "value": "${MONGODB_ADMIN_PASSWORD}"
                   }
                 ],
                 "resources": {
 		      "limits": {
 			  "memory": "${MEMORY_LIMIT}"
-		      }
-                }
+		      }                }
               }
             ]
           }
@@ -168,8 +166,7 @@
   ],
   "parameters": [
     {
-      "name": "NAME",
-      "displayName": "Name",
+      "name": "NAME",      "displayName": "Name",
       "description": "The name assigned to all of the frontend objects defined in this template.",
       "required": true,
       "value": "nodejs-example"
@@ -193,7 +190,7 @@
       "displayName": "Git Repository URL",
       "description": "The URL of the repository with your application source code.",
       "required": true,
-      "value": "https://github.com/alezzandro/nodejs-ex.git"
+      "value": "https://github.com/ale/nodejs-ex.git"
     },
     {
       "name": "SOURCE_REPOSITORY_REF",
