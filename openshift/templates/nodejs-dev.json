@@ -221,8 +221,7 @@
               }
             ]
           }
-        }
-      }
+        }      }
     }
   ],
   "parameters": [
@@ -232,8 +231,7 @@
       "description": "The name assigned to all of the frontend objects defined in this template.",
       "required": true,
       "value": "nodejs-example"
-    },
-    {
+    },    {
       "name": "NAMESPACE",
       "displayName": "Namespace",
       "description": "The OpenShift Namespace where the ImageStream resides.",
@@ -252,7 +250,7 @@
       "displayName": "Git Repository URL",
       "description": "The URL of the repository with your application source code.",
       "required": true,
-      "value": "https://github.com/alezzandro/nodejs-ex.git"
+      "value": "https://github.com/fortem751/nodejs-ex.git"
     },
     {
       "name": "SOURCE_REPOSITORY_REF",
